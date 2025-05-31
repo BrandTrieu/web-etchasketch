@@ -1,0 +1,13 @@
+/* make main grid a set size, no growing or shrinking */
+#maingrid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+    border: 2px, solid, black; 
+    width: 960px;
+    height: 960px;
+    box-sizing: border-box;
+}
+
+/* make the pixels smaller and also a set size */ 
